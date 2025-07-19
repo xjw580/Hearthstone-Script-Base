@@ -1,6 +1,7 @@
-package club.xiaojiawei.bean
+package club.xiaojiawei.hsscriptbase.bean
 
-import club.xiaojiawei.util.withNotNull
+import club.xiaojiawei.hsscriptbase.util.withNotNull
+import kotlin.collections.iterator
 
 /**
  * # Trie树

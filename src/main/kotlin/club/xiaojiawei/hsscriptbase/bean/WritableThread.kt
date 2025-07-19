@@ -1,10 +1,10 @@
-package club.xiaojiawei.bean
+package club.xiaojiawei.hsscriptbase.bean
 
 /**
  * @author 肖嘉威
- * @date 2024/9/8 18:35
+ * @date 2024/9/8 18:36
  */
-open class ReadableThread : LThread {
+class WritableThread: ReadableThread {
 
     constructor(task: Runnable?) : super(task)
 

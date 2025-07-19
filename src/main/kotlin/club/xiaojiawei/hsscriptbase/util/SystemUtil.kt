@@ -1,4 +1,4 @@
-package club.xiaojiawei.util
+package club.xiaojiawei.hsscriptbase.util
 
 import java.awt.Toolkit
 import java.awt.datatransfer.StringSelection

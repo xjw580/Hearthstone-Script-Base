@@ -1,4 +1,4 @@
-package club.xiaojiawei.bean
+package club.xiaojiawei.hsscriptbase.bean
 
 /**
  * @author 肖嘉威

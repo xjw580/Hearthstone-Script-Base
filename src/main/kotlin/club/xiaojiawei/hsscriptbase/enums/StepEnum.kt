@@ -1,6 +1,6 @@
-package club.xiaojiawei.enums
+package club.xiaojiawei.hsscriptbase.enums
 
-import club.xiaojiawei.config.log
+import club.xiaojiawei.hsscriptbase.config.log
 
 /**
  * 游戏回合阶段
@@ -23,7 +23,7 @@ enum class StepEnum(val comment: String) {
     companion object {
         fun fromString(string: String): StepEnum? {
             return try {
-                StepEnum.valueOf(string)
+                valueOf(string)
             } catch (_: Exception) {
                 log.warn { "未适配${string}" }
                 null

@@ -1,4 +1,4 @@
-package club.xiaojiawei.interfaces
+package club.xiaojiawei.hsscriptbase.interfaces
 
 /**
  * @author 肖嘉威

@@ -1,7 +1,7 @@
-package club.xiaojiawei.bean
+package club.xiaojiawei.hsscriptbase.bean
 
-import club.xiaojiawei.config.log
-import club.xiaojiawei.util.isFalse
+import club.xiaojiawei.hsscriptbase.config.log
+import club.xiaojiawei.hsscriptbase.util.isFalse
 
 /**
  * @author 肖嘉威

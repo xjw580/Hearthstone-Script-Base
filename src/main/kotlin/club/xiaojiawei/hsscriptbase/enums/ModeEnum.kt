@@ -1,7 +1,7 @@
-package club.xiaojiawei.enums
+package club.xiaojiawei.hsscriptbase.enums
 
-import club.xiaojiawei.config.log
-import club.xiaojiawei.interfaces.ModeStrategy
+import club.xiaojiawei.hsscriptbase.config.log
+import club.xiaojiawei.hsscriptbase.interfaces.ModeStrategy
 
 /**
  * @author 肖嘉威
@@ -32,7 +32,7 @@ enum class ModeEnum(val comment: String) {
     companion object {
         fun fromString(string: String): ModeEnum? {
             return try {
-                ModeEnum.valueOf(string.trim().uppercase())
+                valueOf(string.trim().uppercase())
             } catch (_: Exception) {
                 log.warn { "未适配${string}" }
                 null

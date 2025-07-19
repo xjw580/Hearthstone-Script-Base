@@ -1,6 +1,6 @@
-package club.xiaojiawei.enums
+package club.xiaojiawei.hsscriptbase.enums
 
-import club.xiaojiawei.interfaces.PhaseStrategy
+import club.xiaojiawei.hsscriptbase.interfaces.PhaseStrategy
 
 /**
  * @author 肖嘉威

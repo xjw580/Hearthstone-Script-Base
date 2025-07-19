@@ -1,4 +1,4 @@
-package club.xiaojiawei.config
+package club.xiaojiawei.hsscriptbase.config
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 

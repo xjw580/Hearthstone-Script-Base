@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>hs-script-base</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Hearthstone-Script-Base</name>

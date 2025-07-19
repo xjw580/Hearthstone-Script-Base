@@ -1,4 +1,4 @@
-package club.xiaojiawei.dll
+package club.xiaojiawei.hsscriptbase.dll
 
 import com.sun.jna.Library
 import com.sun.jna.Native

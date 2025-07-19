@@ -1,6 +1,6 @@
-package club.xiaojiawei.enums
+package club.xiaojiawei.hsscriptbase.enums
 
-import club.xiaojiawei.config.log
+import club.xiaojiawei.hsscriptbase.config.log
 
 /**
  * @author 肖嘉威

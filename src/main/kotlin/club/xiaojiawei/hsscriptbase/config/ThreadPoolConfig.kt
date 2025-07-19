@@ -1,7 +1,7 @@
-package club.xiaojiawei.config
+package club.xiaojiawei.hsscriptbase.config
 
-import club.xiaojiawei.bean.ReadableThread
-import club.xiaojiawei.bean.WritableThread
+import club.xiaojiawei.hsscriptbase.bean.ReadableThread
+import club.xiaojiawei.hsscriptbase.bean.WritableThread
 import java.util.concurrent.*
 import java.util.concurrent.atomic.AtomicInteger
 
