@@ -8,11 +8,12 @@
         <version>v4.8.0.1</version>
     </parent>
 
+    <groupId>com.github.xjw580</groupId>
     <artifactId>hs-script-base</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Hearthstone-Script-Base</name>
+    <name>hs-script-base</name>
     <url>http://maven.apache.org</url>
 
     <repositories>
