@@ -16,7 +16,7 @@ object BuildInfo {
     init {
         val properties = Properties()
         try {
-            BuildInfo::class.java.getClassLoader().getResourceAsStream("build.info").use { resourceStream ->
+            BuildInfo::class.java.classLoader.getResourceAsStream("build.info").use { resourceStream ->
                 if (resourceStream == null) {
                     log.error { "build.info file is not found in the classpath." }
                 } else {
