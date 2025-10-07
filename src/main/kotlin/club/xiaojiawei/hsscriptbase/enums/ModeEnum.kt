@@ -24,7 +24,8 @@ enum class ModeEnum(val comment: String) {
     DRAFT("竞技场界面"),
     PVP_DUNGEON_RUN("对决界面"),
     FRIENDLY("友谊赛界面"),
-    TAVERN_BRAWL("乱斗界面")
+    TAVERN_BRAWL("乱斗界面"),
+    LUCKY_DRAW("抽奖界面"),
     ;
 
     var modeStrategy: ModeStrategy<*>? = null
